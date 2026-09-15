@@ -1,0 +1,80 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(cadencewallpaper.jpg);
+     background-size: cover;     
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 200px 20px;
+}
+.container{
+    background-color: #ffd2e7;
+    padding: 20px;
+    border-radius: 24px;
+    width: 600px;
+    box-shadow: 0 20px 40px #f19fe9;
+     text-shadow: 0 0 10px;
+     color: #a189b8
+}
+header{
+    font-size: 20px;
+    color: #edc7ff;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-shadow: 0 0 10px;
+    letter-spacing: 1px;
+    background: linear-gradient(56deg,#9a53eb,#ffe2a2) ;
+   
+}
+
+header p{
+    color: #ffefc2;
+    font-size: 17px;
+   padding-left: 0px;
+}
+table{
+    width: 100%;
+    
+}
+th{
+    text-align: left;
+    color: #e951a5;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fdfcee;
+    
+}
+td{
+    padding: 15px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #fdfcee;
+}
+
+tbody tr{
+    transition: 0.3s;
+}
+tbody tr :hover{
+cursor: pointer;
+background-color: #ffabd9;
+}
+.valor-negativo{
+    color: #ffffff;
+    font-weight: 500;
+    text-shadow: 0 0 10px;
+}
+
+.valor-positivo{
+    color: #c5029b;
+    font-weight: 500;
+    text-shadow: 0 0 8px;
+}
